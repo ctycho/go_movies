@@ -1,0 +1,6 @@
+go mod init github.com/ctycho/go_movies
+
+to add module requirements and sums:
+go mod tidy
+
+go get -u github.com/gorilla/mux    
