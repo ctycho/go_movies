@@ -1,3 +1,23 @@
+# The Go Movies project CRUD
+There are several endpoints available
+
+POST: "/movies/" - Create movie \
+GET: "/movies/" - Get movies \
+GET: "/movies/{id}" - Get movie \
+PUT: "/movies/{id}" - Update movie \
+DELETE: "/movies/{id}" - Delete movie \
+
+### Add required packages
+go mod tidy
+
+### Build the project
+go build
+
+### Start using it
+./go_movies
+
+
+### Set up (Developer)
 go mod init github.com/ctycho/go_movies
 
 to add module requirements and sums:
